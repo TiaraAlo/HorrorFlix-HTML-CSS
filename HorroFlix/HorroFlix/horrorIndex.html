@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/horrorStyle.css">
+    <title>HORRORFLIX</title>
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+</head>
+<body onload="load()">
+    <header>
+        <div class="container">
+            <h2 class="logo">HORROR</h2>
+            <video class="video" autoplay play src="/video/Zombies - 65691.mp4" height="70px"></video>
+            <!--<audio controls src="/sound/acaz_jason-sexta-feira-13-.mp3"></audio>-->
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">SEXTA-FEIRA 13</h3>
+                <h4 class="subtitulo">Bem-vindo a Crystal Lake</h4>
+                <p class="descricao">Em Crystal Lake, o que começou como o melhor fim semana de suas vidas rapidamente poderia se tornar o último. Um grupo de adolescentes, a quilômetros de distância da civilização estão prestes a descobrir, um a um, que o lago tem um sangrento passado... e está pronto para vingança.
+                </p>
+            </div>
+            <a href="https://www.youtube.com/watch?v=EcVqDnVMnwk" target="blank">
+                <button role="button" class="botao">
+                        <i class="fas fa-play"></i>ASSISTIR AGORA
+                </button></a>
+            <a href="https://www.themoviedb.org/movie/13207-friday-the-13th" alt="aaaaa" target="blank">
+                <button role="button" class="botao" type="button" onmouseover="passou(this)">
+                    <i class="fas fa-map-marker"></i>MAIS INFORMAÇÕES 
+                </button></a>
+        </div>
+    </main>
+
+    <div class="carosel-films">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.justwatch.com/pt/filme/colheita-maldita" target="blank">
+                <img class="box-filme" src="/HorroFlix/img/colheitamaldita.jpg" alt="Colheita maldita" title="Assista agora Colheita Maldita"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.themoviedb.org/movie/9669-2/watch" target="blank">
+                <img class="box-filme" src="/HorroFlix/img/ochamado2.jpg" alt="O chamado 2" title="Assista agora O chamado 2"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.justwatch.com/pt/filme/eonni" target="blank">
+                <img class="box-filme" src="/HorroFlix/img/semmisericordia.jpg" alt="Sem Misericórdia" title="Assista agora Sem Misericórdia"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.justwatch.com/pt/serie/s-o-z-soldados-o-zombies" target="blank">
+                <img class="box-filme" src="/HorroFlix/img/awake.jpg" alt="S.O.Z" title="Assista agora S.O.Z"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.justwatch.com/pt/filme/terapia-do-medo" target="blank">
+                <img class="box-filme" src="/HorroFlix/img/terrapiadomedo.jpg" alt="Terapia do medo" title="Assista agora Terapia do medo"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.justwatch.com/pt/filme/aftermath" target="blank">
+                <img class="box-filme" src="/HorroFlix/img/mudancamortal.jpg" alt="Mudança Mortal" title="Assista agora Mudança Mortal"></a>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e365c9b383.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/owl/horrorMain.js"></script>
+</body>
+</html>
